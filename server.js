@@ -9,7 +9,7 @@ const PORT = 3000;
 app.use(express.json());
 
 // Connect to MongoDB using your own url
-const mongoURI = "mongodb+srv://Rawan:123@lab01.eqyao.mongodb.net/?retryWrites=true&w=majority&appName=Lab01";
+const mongoURI = "INSERT_YOUR_MONGODB_URL_HERE";
 
 mongoose
   .connect(mongoURI, {
