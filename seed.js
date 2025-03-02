@@ -3,7 +3,7 @@
 const mongoose = require('mongoose');
 const Movie = require('./movieModel');
 
-const mongoURI = "mongodb+srv://Rawan:123@lab01.eqyao.mongodb.net/?retryWrites=true&w=majority&appName=Lab01";
+const mongoURI = "INSERT_YOUR_MONGODB_URL_HERE";
 
 const seedData = [
   {
